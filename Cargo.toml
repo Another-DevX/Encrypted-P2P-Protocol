@@ -1,0 +1,12 @@
+[package]
+name = "P2P"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+x25519-dalek = "2.0.1"
+rand_core = "0.6"
+rand = "0.8"
+tokio = { version = "1", features = ["full"] }
+aes-gcm = { version = "0.10" }
+aes = "0.8"
